@@ -1,0 +1,27 @@
+body{ 
+	background: none repeat scroll 0 0 transparent;  
+	text-rendering: optimizeSpeed; 
+	margin: 0; padding: 0;
+}
+
+.container {
+	padding: 0;
+	margin: 0; 
+}
+.bubble-indicator {height: 15px;  position: relative;vertical-align: top; width: 16px; display: inline; text-align: right;}
+.has-popover .popover {width: auto;  right:2px; min-width:120px; max-width: 300px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;background: #fff;border:1px solid #ccc;}
+.has-popover .popover .arrow{ display: block; } 
+.has-popover .popover-content { padding: 9px; font: 12px/1.2em "HelveticaNeueW01-55Roma"; text-align:center; color: #3C3C3C !important; background-color:#fffedf;border-radius: 6px;}
+.has-popover .popover-title { display: block; border: none;}
+.has-popover .popover.top .arrow:after { border-top-color: #fffedf;}
+
+.start-hour-vertical.close_message_hor{
+	height:24px;
+	text-align: left; 
+	margin-top: 2px; 
+	white-space:nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow:hidden;
+} 
+.hours-vertical.show12 .start-hour-vertical.close_message_hor {/*margin-left: -15px;*/}

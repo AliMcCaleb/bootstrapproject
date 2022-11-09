@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- saved from url=(0998)https://businesshours.galilcloud.wixapps.net/?pageId=c1dmp&compId=comp-l16kfdag&viewerCompId=comp-l16kfdag&siteRevision=442&viewMode=site&deviceType=desktop&locale=en&tz=America%2FNew_York&regionalLanguage=en&width=320&height=269&instance=P4RFNBmXjBuqFC1KXMoqetlf7GZCOgnPUBnXdBA3Z4M.eyJpbnN0YW5jZUlkIjoiZTBjMjJiNzItMDViNS00ODg4LWJmYWQtMTYzODYxNTM1Y2EwIiwiYXBwRGVmSWQiOiIxMzAwNjA3OC01NTA1LTEyNmItMWZjNi00NTE0MjJkNTQ1MTEiLCJtZXRhU2l0ZUlkIjoiMDliMDAyMzktY2ExYy00OGRmLWFlOGEtZDI1ZjU1MjhmYjE3Iiwic2lnbkRhdGUiOiIyMDIyLTExLTA5VDAwOjQ3OjQ0Ljk4NloiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjcyODFlYzIzLTA2ZGItNDE0OS05MTY2LWEwMDA4MDA4ZGVkYiIsImJpVG9rZW4iOiJlOTcyMjk0Yi1jZmE5LTAwNTctMTEyNy1jNDY3MzQ3YmE3YjciLCJzaXRlT3duZXJJZCI6IjdiZDI2MjExLTc2MjItNDhkYy1iMjYxLTM0YWYyNWNkZjlmNiJ9&currency=USD&currentCurrency=USD&commonConfig=%7B%22brand%22%3A%22wix%22%2C%22bsi%22%3A%22893ef73b-891b-4646-87c5-3bea1356b40d%7C1%22%2C%22BSI%22%3A%22893ef73b-891b-4646-87c5-3bea1356b40d%7C1%22%7D&vsi=a1751a17-0629-4419-b034-6e6e26aa0c6f -->
+<html lang="en" ng-app="myApp" ng-controller="MainCtrl" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+        
+        <title ng-bind="translation.app_title" class="ng-binding">Business Hours</title>
+        <meta name="description" content="Business Hours">
+        <meta name="keywords" content="">
+<meta name="X-UA-Compatible" content="IE=Edge, Chrome=1"><link href="./fontFace.css" media="screen" rel="stylesheet" type="text/css">
+<link href="./css" media="screen" rel="stylesheet" type="text/css">
+<link href="./widget.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://businesshours.galilcloud.wixapps.net/wix/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="./wix-private.min.js"></script>
+        		
+		<style wix-style="" id="vertical">
+	#bh-box-vertical{
+		padding: 0; 
+		height: auto; 
+		margin: 0 auto;
+		background-color:  #FFFFFF;
+		background-color: style.backgroundColor;
+	    min-height: 120px; 
+	    border-style: solid;	    
+		border-color:#A0A09F;
+		border-color:style.borderColor;
+		
+		background-clip: border-box;
+	}
+	#bh-box-inside-vertical{
+		margin: 0 25px auto 25px;
+	}
+	#bh-box-title-vertical {
+		text-align: center; 	
+		height: 40px;
+		margin-top:5px; 
+		margin-bottom: 2px; 
+		box-sizing: border-box; 
+		-moz-box-sizing:border-box; 
+		color: #103F54; 
+	    color: style.titleColor;
+	    font:normal normal normal 60px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;;
+			    font:normal normal bold 22px/27px din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;;
+		line-height:45px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		-webkit-text-overflow: ellipsis;
+	}
+	#bh-box-top-line-vertical{
+	    border-bottom-color: #A0A09F; 
+	    border-bottom-color: #2F2E2E;
+	}
+	.bh-box-day-vertical{
+		display: block; 
+		clear: both; 
+		margin: 0 auto; 
+		height: 24px; 
+		line-height: 24px;
+	}
+	.day-name-vertical{
+		float: left; 
+		padding-left: 2px; 
+		width: 90px; 	
+		color: #605E5E;
+	    color: style.daysColor;
+		font:normal normal normal 15px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;;
+				font:normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;;
+		line-height: 24px;	
+		text-overflow: ellipsis; 
+		overflow: hidden;
+	}
+	#bh-box-vertical .ampm {
+	 	float: right !important
+	}
+	.hours-vertical {
+		float: right; 
+		min-width: 130px; 
+		height: 24px; 
+		line-height: 24px; 
+	}
+	.start-hour-vertical , .end-hour-vertical {
+		float: left; 
+		font-weight: 400;  
+		color: #103F54;
+	    color:  style.hoursColor;
+		font:normal normal normal 15px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;;
+			    font:normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;;
+		line-height: 24px;	
+		text-overflow: ellipsis; 
+		overflow: hidden;
+		-o-text-overflow: ellipsis; 
+		-webkit-text-overflow: ellipsis;
+		width: 5em;
+	}
+	.start-hour-vertical.show24 , .end-hour-vertical.show24{
+		width: 4em;
+	}
+	.smallLine {
+		margin-top: 0 !important ; 
+	}
+	.end-hour-vertical {
+		min-width: 50px;
+		margin-right: 5px;
+	}
+	.start-hour-vertical span{
+		float: left; 
+		text-align: right
+	}
+	.end-hour-vertical span{
+		float: right; 
+		text-align: right;
+		display: flex;
+		white-space: nowrap;
+	}
+	div.slot-day-vertical + div.slot-day-vertical {
+		border-top-color: #A0A09F; 
+	    border-top-color: #2F2E2E;
+	}
+	#closeMsg-vertical{
+		display: block;
+		clear: both;
+		margin: 10px auto 14px auto;
+		min-height: 34px;
+		max-height:52px;  
+		line-height:20px;
+	    font-size: 14px;
+	    border-top-color: #A0A09F;
+	    border-top-color: #2F2E2E;
+		border-bottom-color: #A0A09F; 
+	    border-bottom-color: #2F2E2E;
+	    text-align: center;  
+	    width:100%;
+	   	color: #605E5E;
+	    color: style.messageColor; 
+		font:normal normal normal 15px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;;
+			    style.messageFont;
+		vertical-align: middle;
+		text-overflow: ellipsis; 
+		overflow: hidden;
+		-o-text-overflow: ellipsis; 
+		-webkit-text-overflow: ellipsis;
+	}
+	#closeMsg-vertical .closeMsg-inside-vertical {
+		max-height:40px;  
+		margin: auto 30px; top: 50%; 
+	}
+	#closeMsg-vertical .closeMsg-inside-vertical span.close_msg{
+		margin:0;
+		padding:0; 
+		display: block; 
+		clear: both; 
+		text-overflow: ellipsis; 
+		overflow: hidden;
+		-o-text-overflow: ellipsis; 
+		-webkit-text-overflow: ellipsis; 
+		width: 100%; 
+		height: 20px;
+	}
+</style>    <style wix-style="">.Title{ font:normal normal normal 25px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Menu{ font:normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Page-title{ font:normal normal normal 25px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Heading-XL{ font:normal normal normal 22px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Heading-L{ font:normal normal normal 40px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Heading-M{ font:normal normal normal 50px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Heading-S{ font:normal normal normal 60px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Body-L{ font:normal normal normal 17px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Body-M{ font:normal normal normal 15px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Body-S{ font:normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Body-XS{ font:normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } }</style><link type="text/css" rel="stylesheet" href="./languages-woff2.css"><link type="text/css" rel="stylesheet" href="./wixMadefor.css"><style type="text/css" id="myStyleInjectvertical">#bh-box-vertical{-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;border-width:0px;}#bh-box-vertical {min-width:285px;}#bh-box-inside-vertical {min-width:235px;}.start-hour-vertical { min-width:50px; /*margin-left: 10px;*/}#bh-box-top-line-vertical{ border-bottom-width: 2px; border-bottom-style: solid; margin-top: 0; margin-bottom: 5px;}div.slot-day-vertical + div.slot-day-vertical {border-top-width: 2px;border-top-style: dashed;clear: both; margin-top:5px;font-size: 14px;}#closeMsg-vertical{border-top-width:2px; border-top-style:solid;border-bottom-width: 2px;border-bottom-style:solid;}@media only screen and (min-width:286px){#bh-box-inside-vertical{margin-right: 25px !important;margin-left: 25px !important;}}</style></head>
+    <body scroll="no" ng-controller="WidgetCtrl" class="ng-scope"><!-- ngIf: documentReady() --><div class="container ng-scope" ng-if="documentReady()">
+	<!-- ngIf: !isHorizontal() --><div id="bh-box-vertical" ng-if="!isHorizontal()" class="ng-scope">
+	    <div id="bh-box-inside-vertical">
+	        <!-- ngIf: isShowTitle() --><div ng-if="isShowTitle()" class="ng-scope">	
+	        	<div id="bh-box-title-vertical" ng-bind-html="settings.title.message | html" class="ng-binding">Hours Store 3 - Virginia Ave</div>
+	        	<div id="bh-box-top-line-vertical"></div>
+	        </div><!-- end ngIf: isShowTitle() -->
+			<!-- ngRepeat: day in arrDays track by $index --><!-- ngIf: isShowDay(day) --><div ng-repeat="day in arrDays track by $index" class="slot-day-vertical ng-scope" ng-if="isShowDay(day)" day="{&quot;name&quot;:&quot;Monday&quot;,&quot;hours&quot;:[{&quot;open&quot;:&quot;5:30am&quot;,&quot;close&quot;:&quot;2:00pm&quot;}]}">
+	            <!-- ngIf: isShowClosedDays(day) -->
+	            <!-- ngIf: isOpenCloseHours(day,0) --><div class="bh-box-day-vertical ng-scope" ng-if="isOpenCloseHours(day,0)">
+	                <div class="day-name-vertical ng-binding" ng-bind-html="day.name | html">Monday</div>
+	                <div class="hours-vertical">	                	
+	                    <div class="start-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].open | html" class="ng-binding">5:30am</span>
+	                    </div>
+	                    <div class="end-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].close | html" class="ng-binding">2:00pm</span>
+	                    </div>
+	                </div>  
+	            </div><!-- end ngIf: isOpenCloseHours(day,0) -->
+	            <!-- ngIf: isOpenCloseHours(day,1) -->  
+	            <!-- ngIf: isOpenCloseHours(day,2) -->  
+	        </div><!-- end ngIf: isShowDay(day) --><!-- end ngRepeat: day in arrDays track by $index --><!-- ngIf: isShowDay(day) --><div ng-repeat="day in arrDays track by $index" class="slot-day-vertical ng-scope" ng-if="isShowDay(day)" day="{&quot;name&quot;:&quot;Tuesday&quot;,&quot;hours&quot;:[{&quot;open&quot;:&quot;5:30am&quot;,&quot;close&quot;:&quot;3:00pm&quot;}]}">
+	            <!-- ngIf: isShowClosedDays(day) -->
+	            <!-- ngIf: isOpenCloseHours(day,0) --><div class="bh-box-day-vertical ng-scope" ng-if="isOpenCloseHours(day,0)">
+	                <div class="day-name-vertical ng-binding" ng-bind-html="day.name | html">Tuesday</div>
+	                <div class="hours-vertical">	                	
+	                    <div class="start-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].open | html" class="ng-binding">5:30am</span>
+	                    </div>
+	                    <div class="end-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].close | html" class="ng-binding">3:00pm</span>
+	                    </div>
+	                </div>  
+	            </div><!-- end ngIf: isOpenCloseHours(day,0) -->
+	            <!-- ngIf: isOpenCloseHours(day,1) -->  
+	            <!-- ngIf: isOpenCloseHours(day,2) -->  
+	        </div><!-- end ngIf: isShowDay(day) --><!-- end ngRepeat: day in arrDays track by $index --><!-- ngIf: isShowDay(day) --><div ng-repeat="day in arrDays track by $index" class="slot-day-vertical ng-scope" ng-if="isShowDay(day)" day="{&quot;name&quot;:&quot;Wednesday&quot;,&quot;hours&quot;:[{&quot;open&quot;:&quot;5:30am&quot;,&quot;close&quot;:&quot;3:00pm&quot;}]}">
+	            <!-- ngIf: isShowClosedDays(day) -->
+	            <!-- ngIf: isOpenCloseHours(day,0) --><div class="bh-box-day-vertical ng-scope" ng-if="isOpenCloseHours(day,0)">
+	                <div class="day-name-vertical ng-binding" ng-bind-html="day.name | html">Wednesday</div>
+	                <div class="hours-vertical">	                	
+	                    <div class="start-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].open | html" class="ng-binding">5:30am</span>
+	                    </div>
+	                    <div class="end-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].close | html" class="ng-binding">3:00pm</span>
+	                    </div>
+	                </div>  
+	            </div><!-- end ngIf: isOpenCloseHours(day,0) -->
+	            <!-- ngIf: isOpenCloseHours(day,1) -->  
+	            <!-- ngIf: isOpenCloseHours(day,2) -->  
+	        </div><!-- end ngIf: isShowDay(day) --><!-- end ngRepeat: day in arrDays track by $index --><!-- ngIf: isShowDay(day) --><div ng-repeat="day in arrDays track by $index" class="slot-day-vertical ng-scope" ng-if="isShowDay(day)" day="{&quot;name&quot;:&quot;Thursday&quot;,&quot;hours&quot;:[{&quot;open&quot;:&quot;5:30am&quot;,&quot;close&quot;:&quot;3:00pm&quot;}]}">
+	            <!-- ngIf: isShowClosedDays(day) -->
+	            <!-- ngIf: isOpenCloseHours(day,0) --><div class="bh-box-day-vertical ng-scope" ng-if="isOpenCloseHours(day,0)">
+	                <div class="day-name-vertical ng-binding" ng-bind-html="day.name | html">Thursday</div>
+	                <div class="hours-vertical">	                	
+	                    <div class="start-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].open | html" class="ng-binding">5:30am</span>
+	                    </div>
+	                    <div class="end-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].close | html" class="ng-binding">3:00pm</span>
+	                    </div>
+	                </div>  
+	            </div><!-- end ngIf: isOpenCloseHours(day,0) -->
+	            <!-- ngIf: isOpenCloseHours(day,1) -->  
+	            <!-- ngIf: isOpenCloseHours(day,2) -->  
+	        </div><!-- end ngIf: isShowDay(day) --><!-- end ngRepeat: day in arrDays track by $index --><!-- ngIf: isShowDay(day) --><div ng-repeat="day in arrDays track by $index" class="slot-day-vertical ng-scope" ng-if="isShowDay(day)" day="{&quot;name&quot;:&quot;Friday&quot;,&quot;hours&quot;:[{&quot;open&quot;:&quot;5:30am&quot;,&quot;close&quot;:&quot;3:00pm&quot;}]}">
+	            <!-- ngIf: isShowClosedDays(day) -->
+	            <!-- ngIf: isOpenCloseHours(day,0) --><div class="bh-box-day-vertical ng-scope" ng-if="isOpenCloseHours(day,0)">
+	                <div class="day-name-vertical ng-binding" ng-bind-html="day.name | html">Friday</div>
+	                <div class="hours-vertical">	                	
+	                    <div class="start-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].open | html" class="ng-binding">5:30am</span>
+	                    </div>
+	                    <div class="end-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].close | html" class="ng-binding">3:00pm</span>
+	                    </div>
+	                </div>  
+	            </div><!-- end ngIf: isOpenCloseHours(day,0) -->
+	            <!-- ngIf: isOpenCloseHours(day,1) -->  
+	            <!-- ngIf: isOpenCloseHours(day,2) -->  
+	        </div><!-- end ngIf: isShowDay(day) --><!-- end ngRepeat: day in arrDays track by $index --><!-- ngIf: isShowDay(day) --><div ng-repeat="day in arrDays track by $index" class="slot-day-vertical ng-scope" ng-if="isShowDay(day)" day="{&quot;name&quot;:&quot;Saturday&quot;,&quot;hours&quot;:[{&quot;open&quot;:&quot;6:00am&quot;,&quot;close&quot;:&quot;2:00pm&quot;}]}">
+	            <!-- ngIf: isShowClosedDays(day) -->
+	            <!-- ngIf: isOpenCloseHours(day,0) --><div class="bh-box-day-vertical ng-scope" ng-if="isOpenCloseHours(day,0)">
+	                <div class="day-name-vertical ng-binding" ng-bind-html="day.name | html">Saturday</div>
+	                <div class="hours-vertical">	                	
+	                    <div class="start-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].open | html" class="ng-binding">6:00am</span>
+	                    </div>
+	                    <div class="end-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].close | html" class="ng-binding">2:00pm</span>
+	                    </div>
+	                </div>  
+	            </div><!-- end ngIf: isOpenCloseHours(day,0) -->
+	            <!-- ngIf: isOpenCloseHours(day,1) -->  
+	            <!-- ngIf: isOpenCloseHours(day,2) -->  
+	        </div><!-- end ngIf: isShowDay(day) --><!-- end ngRepeat: day in arrDays track by $index --><!-- ngIf: isShowDay(day) --><div ng-repeat="day in arrDays track by $index" class="slot-day-vertical ng-scope" ng-if="isShowDay(day)" day="{&quot;name&quot;:&quot;Sunday&quot;,&quot;hours&quot;:[{&quot;open&quot;:&quot;6:00am&quot;,&quot;close&quot;:&quot;2:00pm&quot;}]}">
+	            <!-- ngIf: isShowClosedDays(day) -->
+	            <!-- ngIf: isOpenCloseHours(day,0) --><div class="bh-box-day-vertical ng-scope" ng-if="isOpenCloseHours(day,0)">
+	                <div class="day-name-vertical ng-binding" ng-bind-html="day.name | html">Sunday</div>
+	                <div class="hours-vertical">	                	
+	                    <div class="start-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].open | html" class="ng-binding">6:00am</span>
+	                    </div>
+	                    <div class="end-hour-vertical show12" ng-class="&#39;show&#39;+settings.display_time">
+	                    	<span ng-bind-html="day.hours[0].close | html" class="ng-binding">2:00pm</span>
+	                    </div>
+	                </div>  
+	            </div><!-- end ngIf: isOpenCloseHours(day,0) -->
+	            <!-- ngIf: isOpenCloseHours(day,1) -->  
+	            <!-- ngIf: isOpenCloseHours(day,2) -->  
+	        </div><!-- end ngIf: isShowDay(day) --><!-- end ngRepeat: day in arrDays track by $index -->
+	        <!-- ngIf: isShowCloseMessage() -->
+		</div>
+	</div><!-- end ngIf: !isHorizontal() -->
+	<!-- ngIf: isHorizontal() -->
+</div><!-- end ngIf: documentReady() -->        <script type="text/javascript">
+	        var objParams = {
+		        	appName		: "myApp",
+		    		settings  	: {"first_day":0,"box":{"border-width":0,"border-radius":1,"background-color-rgba":""},"title":{"show":1,"message":"Hours Store 3 - Virginia Ave"},"separator":{"show":1},"close_message":{"is_closed":0,"message":"","split":[""]},"layout":"vertical","show_closed_days":1,"display_time":12,"lang":"en","edit_text_by_user":1,"windows":false,"max_column":7,"max_hours":2},
+					constants 	: {"LAYOUT_VERTICAL":"vertical","LAYOUT_HORIZONTAL":"horizontal","DISPLAY_TIME_12":"12","DISPLAY_TIME_24":"24"},
+					design    	: {"dividers":{"show":{"name":"chDividers","type":"Checkbox","value":1},"color":{"name":"dividersColor","type":"ColorPicker","value":"color-3"}},"title":{"color":{"name":"titleColor","type":"ColorPicker","value":"color-10"},"font":{"name":"titleFont","type":"FontStylePicker","value":"Heading-S"}},"days":{"color":{"name":"daysColor","type":"ColorPicker","value":"color-4"},"font":{"name":"daysFont","type":"FontStylePicker","value":"Body-M"}},"hours":{"color":{"name":"hoursColor","type":"ColorPicker","value":"color-10"},"font":{"name":"hoursFont","type":"FontStylePicker","value":"Body-M"}},"message":{"color":{"name":"messageColor","type":"ColorPicker","value":"color-4"},"font":{"name":"messageFont","type":"FontStylePicker","value":"Body-M"}},"background":{"color":{"name":"backgroundColor","type":"ColorPickerWithOpacity","value":"color-1","opacity":"100"}},"border":{"color":{"name":"borderColor","type":"ColorPicker","value":"color-3"},"width":{"name":"borderWidth","type":"Spinner","value":"2"}},"radius":{"width":{"name":"borderRadius","type":"Spinner","value":"1"}}},
+					translation	: {"day0":"Monday","day1":"Tuesday","day2":"Wednesday","day3":"Thursday","day4":"Friday","day5":"Saturday","day6":"Sunday","app_title":"Business Hours","closed":"Closed","default_title":"Business Hours"},
+					days		: [{"name":"Monday","hours":[{"open":"05:30","close":"14:00"}]},{"name":"Tuesday","hours":[{"open":"05:30","close":"15:00"}]},{"name":"Wednesday","hours":[{"open":"05:30","close":"15:00"}]},{"name":"Thursday","hours":[{"open":"05:30","close":"15:00"}]},{"name":"Friday","hours":[{"open":"05:30","close":"15:00"}]},{"name":"Saturday","hours":[{"open":"06:00","close":"14:00"}]},{"name":"Sunday","hours":[{"open":"06:00","close":"14:00"}]}],
+					mobile 		: 'mobile'
+	    	};
+		</script>
+		<script type="text/javascript" src="./jquery.min.js"></script>
+<script type="text/javascript" src="./angular.min.js"></script>
+<script type="text/javascript" src="./angular.clamp.js"></script>
+<script type="text/javascript" src="./jquery.resizeEnd.min.js"></script>
+<script type="text/javascript" src="./functions.js"></script>
+<script type="text/javascript" src="./jquery.dotdotdot.min.js"></script>
+<script type="text/javascript" src="./functions(1).js"></script>
+<script type="text/javascript" src="./app.js"></script>
+<script type="text/javascript" src="./StyleService.js"></script>
+<script type="text/javascript" src="./mainController(2).js"></script>
+<script type="text/javascript" src="./directives.js"></script>
+<script type="text/javascript" src="./widget.js"></script>	
+</body></html>

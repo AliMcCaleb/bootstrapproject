@@ -1,0 +1,69 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+body {
+    display: block;
+  font-family: Jost, Kalam, Anton, sans-serif;
+  color: black;
+}
+
+.navbar-toggler-icon{
+color: rgba(0,0,0,1);
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+
+.navbar-nav .nav-link {
+color: black;	
+}
+
+h1,h2 {
+	font-family: "Jost";
+}
+
+p {
+	font-family: "Jost";
+}
+
+ol{
+	font-family: "Jost";
+
+}
+
+
+.bg-primary {
+    background-image: url("images/mainbagel2.jpeg") !important; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+			
+
+			#aboutUs { 
+				
+			}
+
+			#hours { 
+				background-image: url("images/banana.jpeg");
+				font-size: large;
+				color: black;
+			}
+
+			#specials{  
+				
+			}
+
+			#catering{
+			color: black;
+			background-image: url("images/creamcheese.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			font-size: xx-large;
+
+			}
+
+			}
+
+			#contact{ 
+				
+			}
